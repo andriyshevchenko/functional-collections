@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>6bf7959e-2edf-40c5-9c68-3ee83303793d</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>collections</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Common\Create.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\Enumerable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\FlowControl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\Func.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GlobalSuppressions.cs" />
+  </ItemGroup>
+</Project>
