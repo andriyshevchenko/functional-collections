@@ -4,7 +4,7 @@ namespace System.Functional.Memoize
 {
     public static class Numeric
     {
-        private static Dictionary<int, Dictionary<int, double>> _values = Dictionary<int, Dictionary<int, double>>();
+        private static Dictionary<int, Dictionary<int, double>> _values = dictionary<int, Dictionary<int, double>>();
 
         public static double MemoizeInt(Func<double> function, int capacity = 100)
           => MemoizeDouble(x => function(), 0, capacity);
@@ -20,7 +20,7 @@ namespace System.Functional.Memoize
             Dictionary<int, double> dictionary;
             if (!_values.ContainsKey(function.GetHashCode()))
             {
-                _values[function.GetHashCode()] = dictionary = Dictionary<int, double>(capacity);
+                _values[function.GetHashCode()] = dictionary = dictionary<int, double>(capacity);
             }
             else
             {

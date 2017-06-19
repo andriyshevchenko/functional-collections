@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>collections.Uwp</id>
+    <version>1.0.1</version>
+    <authors>Andriy Shevchenko</authors>
+    <owners>Andriy Shevchenko</owners>
+    <projectUrl>https://bitbucket.org/fathergorio/collections</projectUrl>
+    <title>Library applies functional approach to operate c# collections and flow control</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A methods to operate collections and flow control. Using a C# 6.0 static import required. Extensive use of C# 7.0 ValueTuple's</description>
+    <releaseNotes>Add project to nuget</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>functional-programming collections</tags>
+    
+  </metadata>
+  <files>
+    <file src="bin\Debug\collections.Uwp.dll" target="lib"></file>
+  </files>
+</package>
