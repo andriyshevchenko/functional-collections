@@ -22,13 +22,6 @@ namespace collections.Tests
         }
 
         [TestMethod]
-        public void should_not_switch_on_null()
-        {
-            Assert.ThrowsException<ArgumentNullException>(
-                () => Switch(5, null));
-        }
-
-        [TestMethod]
         public void should_switch_on_null_label()
         {
             Switch(

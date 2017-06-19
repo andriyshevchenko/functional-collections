@@ -11,11 +11,20 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "collections.Uwp", "collecti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "collections.Tests", "collections.Tests\collections.Tests.csproj", "{156195BA-BA22-4BC2-81EA-87992F6809B1}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "collections.Math", "collections.Math\collections.Math.shproj", "{DA23D179-0622-4E34-B4FB-14647BD00CA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "collections.Math.Net45", "collections.Math.Net45\collections.Math.Net45.csproj", "{74F5048F-FC07-48EA-AFD9-AC730E0508B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "collections.Math.Uwp", "collections.Math.Uwp\collections.Math.Uwp.csproj", "{3A66599E-9A6F-41AC-8A5A-16085057C31A}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		collections.Math\collections.Math.projitems*{3a66599e-9a6f-41ac-8a5a-16085057c31a}*SharedItemsImports = 4
 		collections\collections.projitems*{6bf7959e-2edf-40c5-9c68-3ee83303793d}*SharedItemsImports = 13
+		collections.Math\collections.Math.projitems*{74f5048f-fc07-48ea-afd9-ac730e0508b2}*SharedItemsImports = 4
 		collections\collections.projitems*{7d850e77-21e2-4edf-aa07-413a386ef761}*SharedItemsImports = 4
 		collections\collections.projitems*{bf1e97b5-d5eb-419b-a915-9272bd3868a1}*SharedItemsImports = 4
+		collections.Math\collections.Math.projitems*{da23d179-0622-4e34-b4fb-14647bd00ca9}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -76,6 +85,38 @@ Global
 		{156195BA-BA22-4BC2-81EA-87992F6809B1}.Release|x64.Build.0 = Release|Any CPU
 		{156195BA-BA22-4BC2-81EA-87992F6809B1}.Release|x86.ActiveCfg = Release|Any CPU
 		{156195BA-BA22-4BC2-81EA-87992F6809B1}.Release|x86.Build.0 = Release|Any CPU
+		{74F5048F-FC07-48EA-AFD9-AC730E0508B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74F5048F-FC07-48EA-AFD9-AC730E0508B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74F5048F-FC07-48EA-AFD9-AC730E0508B2}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{74F5048F-FC07-48EA-AFD9-AC730E0508B2}.Debug|ARM.Build.0 = Debug|Any CPU
+		{74F5048F-FC07-48EA-AFD9-AC730E0508B2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{74F5048F-FC07-48EA-AFD9-AC730E0508B2}.Debug|x64.Build.0 = Debug|Any CPU
+		{74F5048F-FC07-48EA-AFD9-AC730E0508B2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{74F5048F-FC07-48EA-AFD9-AC730E0508B2}.Debug|x86.Build.0 = Debug|Any CPU
+		{74F5048F-FC07-48EA-AFD9-AC730E0508B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74F5048F-FC07-48EA-AFD9-AC730E0508B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74F5048F-FC07-48EA-AFD9-AC730E0508B2}.Release|ARM.ActiveCfg = Release|Any CPU
+		{74F5048F-FC07-48EA-AFD9-AC730E0508B2}.Release|ARM.Build.0 = Release|Any CPU
+		{74F5048F-FC07-48EA-AFD9-AC730E0508B2}.Release|x64.ActiveCfg = Release|Any CPU
+		{74F5048F-FC07-48EA-AFD9-AC730E0508B2}.Release|x64.Build.0 = Release|Any CPU
+		{74F5048F-FC07-48EA-AFD9-AC730E0508B2}.Release|x86.ActiveCfg = Release|Any CPU
+		{74F5048F-FC07-48EA-AFD9-AC730E0508B2}.Release|x86.Build.0 = Release|Any CPU
+		{3A66599E-9A6F-41AC-8A5A-16085057C31A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A66599E-9A6F-41AC-8A5A-16085057C31A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A66599E-9A6F-41AC-8A5A-16085057C31A}.Debug|ARM.ActiveCfg = Debug|ARM
+		{3A66599E-9A6F-41AC-8A5A-16085057C31A}.Debug|ARM.Build.0 = Debug|ARM
+		{3A66599E-9A6F-41AC-8A5A-16085057C31A}.Debug|x64.ActiveCfg = Debug|x64
+		{3A66599E-9A6F-41AC-8A5A-16085057C31A}.Debug|x64.Build.0 = Debug|x64
+		{3A66599E-9A6F-41AC-8A5A-16085057C31A}.Debug|x86.ActiveCfg = Debug|x86
+		{3A66599E-9A6F-41AC-8A5A-16085057C31A}.Debug|x86.Build.0 = Debug|x86
+		{3A66599E-9A6F-41AC-8A5A-16085057C31A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A66599E-9A6F-41AC-8A5A-16085057C31A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A66599E-9A6F-41AC-8A5A-16085057C31A}.Release|ARM.ActiveCfg = Release|ARM
+		{3A66599E-9A6F-41AC-8A5A-16085057C31A}.Release|ARM.Build.0 = Release|ARM
+		{3A66599E-9A6F-41AC-8A5A-16085057C31A}.Release|x64.ActiveCfg = Release|x64
+		{3A66599E-9A6F-41AC-8A5A-16085057C31A}.Release|x64.Build.0 = Release|x64
+		{3A66599E-9A6F-41AC-8A5A-16085057C31A}.Release|x86.ActiveCfg = Release|x86
+		{3A66599E-9A6F-41AC-8A5A-16085057C31A}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
