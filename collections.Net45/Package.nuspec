@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>collections</id>
+    <id>fcollections</id>
     <version>1.0.1</version>
     <authors>Andriy Shevchenko</authors>
     <owners>Andriy Shevchenko</owners>
     <projectUrl>https://bitbucket.org/fathergorio/collections</projectUrl>
-    <title>Library applies functional approach to operate c# collections and flow control</title>
+    <title>functional collections</title>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A methods to operate collections and flow control. Using a C# 6.0 static import required. Extensive use of C# 7.0 ValueTuple's</description>
     <releaseNotes>Add project to nuget</releaseNotes>

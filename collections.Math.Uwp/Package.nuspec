@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>collections.Math.Uwp</id>
+    <id>fcollections.Math.Uwp</id>
     <version>1.0.1</version>
     <authors>Andriy Shevchenko</authors>
     <owners>Andriy Shevchenko</owners>
     <projectUrl>https://bitbucket.org/fathergorio/collections</projectUrl>
-    <title>functional approach to operate c# vectors</title>
+    <title>functional vectors + math</title>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A methods to create series of numbers and operate vectors</description>
     <releaseNotes>Add project to nuget</releaseNotes>
     <copyright>Copyright 2017</copyright>
     <tags>functional-programming collections math</tags>
     <dependencies>
-      <dependency id="collections.Uwp" version="1.0.1" />
+      <dependency id="fcollections.Uwp" version="1.0.1" />
     </dependencies>
   </metadata>
   <files>
